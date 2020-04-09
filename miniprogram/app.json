@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/base/base",
+    "pages/cloud/cloud"
+  ],
+  
+  "window": {      
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0097ff",
+    "navigationBarTitleText": "桂工食堂",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/base/base",
+      "text": "首页",
+      "iconPath": "images/m.png",
+      "selectedIconPath": "images/my.png"
+    },{
+      "pagePath": "pages/cloud/cloud",
+      "text": "我的",
+      "iconPath": "images/use.png",
+      "selectedIconPath": "images/user.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
